@@ -1,3 +1,10 @@
 node_modules/
-.mcpregistry_github_token
-.mcpregistry_registry_token
+*.map
+*.mcpb
+.mcpregistry_*
+mcp-publisher.exe
+*.token
+.env
+.env.*
+*.pem
+*.key
