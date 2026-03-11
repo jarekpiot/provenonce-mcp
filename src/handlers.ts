@@ -187,7 +187,7 @@ export async function handleGetPassport(args: { payment_tx?: string }) {
   if (!data) return err('Passport retrieval failed');
 
   return ok({
-    passport: data.lineage_proof,
+    passport: data.passport ?? data.lineage_proof,
     message:
       'Passport issued. Share this signed document with any third party to prove your identity offline.',
     _verify:
