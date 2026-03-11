@@ -166,7 +166,7 @@ Full privacy policy: [provenonce.dev/legal/privacy](https://provenonce.dev/legal
 ## Support
 
 - Documentation: [provenonce.dev](https://provenonce.dev)
-- Issues: [github.com/jarekpiot/provenonce-mcp/issues](https://github.com/jarekpiot/provenonce-mcp/issues)
+- Issues: [github.com/ProvenonceAI/provenonce-mcp/issues](https://github.com/ProvenonceAI/provenonce-mcp/issues)
 - Email: ops@provenonce.io
 
 ## What's Coming

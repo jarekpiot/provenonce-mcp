@@ -22,7 +22,7 @@
   "homepage": "https://provenonce.dev/mcp-skill",
   "repository": {
     "type": "git",
-    "url": "https://github.com/jarekpiot/provenonce-mcp"
+    "url": "https://github.com/ProvenonceAI/provenonce-mcp"
   },
   "privacy_policies": [
     "https://provenonce.dev/legal/privacy"
