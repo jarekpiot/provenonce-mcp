@@ -1,6 +1,6 @@
 {
   "name": "@provenonce/mcp",
-  "version": "1.1.4",
+  "version": "1.1.5",
   "description": "Provenonce Skill — MCP server giving any AI agent cryptographic identity, SIGIL, heartbeat, passport, and beats proofs.",
   "keywords": [
     "provenonce",
@@ -55,5 +55,5 @@
   "engines": {
     "node": ">=18"
   },
-  "mcpName": "io.github.jarekpiot/provenonce"
+  "mcpName": "io.github.ProvenonceAI/provenonce"
 }
