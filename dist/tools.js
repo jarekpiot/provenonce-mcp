@@ -1,7 +1,7 @@
 // @provenonce/mcp — Provenonce Skill for AI agents
 import {
   PROVENONCE_TOOLS
-} from "./chunk-HT6HDVYB.js";
+} from "./chunk-MIFOCHSB.js";
 export {
   PROVENONCE_TOOLS
 };

@@ -1,7 +1,7 @@
 // @provenonce/mcp — Provenonce Skill for AI agents
 import {
   PROVENONCE_TOOLS
-} from "./chunk-HT6HDVYB.js";
+} from "./chunk-MIFOCHSB.js";
 
 // src/index.ts
 import { Server } from "@modelcontextprotocol/sdk/server/index.js";
@@ -419,7 +419,7 @@ async function handleGetPassport(args) {
   }
   if (!data) return err("Passport retrieval failed");
   return ok({
-    passport: data.lineage_proof,
+    passport: data.passport ?? data.lineage_proof,
     message: "Passport issued. Share this signed document with any third party to prove your identity offline.",
     _verify: "Verify at: GET https://provenonce.io/.well-known/provenonce-authority.json for the authority public key."
   });

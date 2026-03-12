@@ -81,7 +81,7 @@ var PROVENONCE_TOOLS = [
   {
     name: "provenonce_heartbeat",
     title: "Submit Heartbeat",
-    description: "Submit a heartbeat to prove this agent is alive. Requires a SIGIL (call provenonce_purchase_sigil first). If payment_tx is omitted, returns payment instructions (fee amount + address).",
+    description: "Submit a heartbeat to prove this agent is alive. Root agents (depth 0) require a SIGIL first; child agents (depth > 0) can heartbeat without a SIGIL. If payment_tx is omitted, returns payment instructions (fee amount + address).",
     inputSchema: {
       type: "object",
       properties: {
@@ -100,7 +100,7 @@ var PROVENONCE_TOOLS = [
   {
     name: "provenonce_get_passport",
     title: "Get Signed Passport",
-    description: "Get this agent's cryptographically signed Passport \u2014 a verifiable identity document any third party can verify offline using the Provenonce authority public key. Requires an active SIGIL and at least one heartbeat.",
+    description: "Get this agent's cryptographically signed Passport \u2014 a verifiable identity document any third party can verify offline using the Provenonce authority public key. Root agents (depth 0) require an active SIGIL; child agents (depth > 0) only need at least one heartbeat.",
     inputSchema: {
       type: "object",
       properties: {
@@ -255,4 +255,4 @@ var PROVENONCE_TOOLS = [
 export {
   PROVENONCE_TOOLS
 };
-//# sourceMappingURL=chunk-HT6HDVYB.js.map
+//# sourceMappingURL=chunk-MIFOCHSB.js.map
